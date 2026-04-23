@@ -11,19 +11,12 @@ export default function Home() {
     <div className="flex flex-col justify-center">
       <main className="flex w-full flex-col justify-between bg-white">
         <Hero />
-        <br />
-        <CEO />
-        <br />
-        <ConsultantSec />
-        <br />
         <LMS />
-        <br />
+        <ConsultantSec />
+        <CEO />
         <MDP />
-        <br />
         <TestimonialSec />
-        <br />
         <TrainingSection />
-        <br />
       </main>
     </div>
   );

@@ -1,5 +1,7 @@
 export default function MDP() {
-  return <section></section>;
+  return <section className='py-10'>
+    <div></div>
+  </section>;
 }
 
 

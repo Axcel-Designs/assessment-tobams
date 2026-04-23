@@ -1,5 +1,6 @@
-import React from 'react'
 
 export default function ConsultantSec() {
-  return <section></section>;
+  return <section className='py-10'>
+    <div></div>
+  </section>;
 }
