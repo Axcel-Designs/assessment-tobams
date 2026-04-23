@@ -40,4 +40,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - [Tailwind CSS](https://tailwindcss.com/) - For styling the application.
 - [React-icons](https://react-icons.github.io/react-icons/) - For including popular icons in React projects.
 
-live [URL](https://assessment-tobams-ten.vercel.app)
+live [URL](https://assessment-tobams-ten.vercel.app/)
