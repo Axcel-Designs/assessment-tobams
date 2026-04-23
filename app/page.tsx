@@ -8,15 +8,22 @@ import TrainingSection from "@/components/common/TrainingSection";
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center font-sans">
+    <div className="flex flex-col justify-center">
       <main className="flex w-full flex-col justify-between bg-white">
         <Hero />
+        <br />
         <CEO />
+        <br />
         <ConsultantSec />
+        <br />
         <LMS />
+        <br />
         <MDP />
+        <br />
         <TestimonialSec />
+        <br />
         <TrainingSection />
+        <br />
       </main>
     </div>
   );
