@@ -1,3 +1,4 @@
+import BookConsultant from "@/components/common/BookConsultant";
 import CEO from "@/components/common/CEO";
 import ConsultantSec from "@/components/common/ConsultantSec";
 import Hero from "@/components/common/Hero";
@@ -12,11 +13,12 @@ export default function Home() {
       <main className="flex w-full flex-col justify-between bg-white">
         <Hero />
         <LMS />
-        <ConsultantSec />
-        <CEO />
-        <MDP />
-        <TestimonialSec />
         <TrainingSection />
+        <MDP />
+        <CEO />
+        <ConsultantSec />
+        <BookConsultant />
+        <TestimonialSec />
       </main>
     </div>
   );

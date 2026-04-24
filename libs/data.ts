@@ -1,25 +1,29 @@
 import { assetImg } from "@/assets/imgs";
 
-export const testimonials = [
+export const testimonialData = [
   {
+    img: assetImg.aishaYusuf,
     name: "Aisha Yusuf",
     title: "Founder, CraftHub NG",
     message:
       "Working with Tobams Group on our website was a breeze. They understood our vision and transformed it into a beautiful online space. Highly recommend their Website Design service!",
   },
   {
+    img: assetImg.johnDavies,
     name: "John Davies",
     title: "Marketing Manager, E-Commerce Emporium",
     message:
       "Tobams Group's Digital Marketing strategies gave our brand the boost it needed. Simple yet powerful techniques that delivered tangible results. A pleasure to collaborate with!",
   },
   {
+    img: assetImg.chinoso,
     name: "Chinonso Nwankwo",
     title: "HR Director, FutureTech Solutions",
     message:
       "Tobams Group has been instrumental in our talent acquisition journey. Their Tech Talent Solution service consistently connects us with the right professionals. Reliable and straightforward.",
   },
   {
+    img: "",
     name: "",
     title: "",
     message: "",
