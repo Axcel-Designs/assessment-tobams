@@ -1,7 +1,11 @@
-import React from 'react'
+import FooterTop from "../footer/FooterTop"
+import FooterFinal from "../footer/FooterFinal"
 
 export default function Footer() {
   return (
-    <footer>Footer</footer>
+    <footer>
+      <FooterTop />
+      <FooterFinal/>
+    </footer>
   )
 }

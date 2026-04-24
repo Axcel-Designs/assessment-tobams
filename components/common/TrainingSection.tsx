@@ -20,7 +20,7 @@ export default function TrainingSection() {
               </ul>
             </div>
           </div>
-          <div className="relative w-full aspect-square xl:h-full xl:w-full xl:max-w-[600px] order-2 xl:order-0 rounded-lg overflow-hidden rounded-tl-[33px] xl:aspect-auto">
+          <div className="relative w-full aspect-square xl:h-full xl:w-full xl:max-w-150 order-2 xl:order-0 rounded-lg overflow-hidden rounded-tl-[33px] xl:aspect-auto">
             <Image src={training.img} alt={training.title} className='w-full h-full object-cover' fill placeholder="blur" />
           </div>
         </div>

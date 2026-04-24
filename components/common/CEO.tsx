@@ -23,7 +23,7 @@ export default function CEO() {
           <p className="text-black">Transformation Hub with Jite Newton is a flagship webinar series curated by the CEO, Dr. Jite Newton. Designed to elevate career trajectories and leadership capabilities, this exclusive event offers invaluable insights and strategies for personal and professional growth. Whether you&apos;re seeking to advance your career or enhance your leadership skills, the Transformation Hub provides a transformative learning experience to unlock your full potential and drive success in your endeavours.</p>
         </div>
         <div className="w-full h-full xl:h-85 flex flex-col xl:flex-row justify-between gap-10">
-          <div className="relative xl:w-full xl:max-w-[545px] xl:h-85 lg:h-70 h-58 aspect-square xl:aspect-auto shrink-0 rounded-lg overflow-hidden">
+          <div className="relative xl:w-full xl:max-w-136.25 xl:h-85 lg:h-70 h-58 aspect-square xl:aspect-auto shrink-0 rounded-lg overflow-hidden">
             <Image src={assetImg.trans}
               alt="Chief Executive Officer"
               placeholder="blur"
@@ -32,7 +32,7 @@ export default function CEO() {
             />
           </div>
           <article className='xl:py-8 xl:px-5 rounded-lg flex flex-col justify-between gap-6 bg-[#FFFFFF]/30'>
-            <ul className='gap-[25px] grid grid-cols-1 md:grid-cols-2'>
+            <ul className='gap-6.25 grid grid-cols-1 md:grid-cols-2'>
               {MDPList.map((benefit, i) => <li key={i} className='flex items-center gap-3 bg-[#FFFFFF] p-4 rounded-lg w-full text-[#571244]'>
                 <BsLightningCharge />
                 {benefit}

@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function TestimonialSec() {
   return (
     <section className='xl:py-16 bg-[#C4C4C44D]30'>
-      <div className="px-16">
+      <div className="px-16 p-6 grid">
         <h2 className="text-center text-xl xl:text-[40px]">Testimonial</h2>
-        <article className="flex gap-[23px]">
+        <article className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5.75">
           {testimonialData.map((testimonial, i) => (
             <div key={i} className="p-6 rounded-lg gap-5 grid my-6 border-l-4 border-[#EF4353] bg-white">
               <div className="grid grid-cols-4 grid-row-2 items-center ">

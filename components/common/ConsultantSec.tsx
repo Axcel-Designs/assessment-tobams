@@ -1,6 +1,3 @@
-import { assetImg } from "@/assets/imgs";
-import Image from "next/image";
-import { BsLightningCharge, } from "react-icons/bs";
 import Button from "../ui/button";
 import { FiArrowUpRight } from "react-icons/fi";
 
@@ -23,8 +20,8 @@ export default function ConsultantSec() {
           <p className="text-black">
             With the help of our Training Consultants program, take a revolutionary step toward becoming a distinguished certified training consultant. Learn from professionals in the field, immerse yourself in a thorough curriculum, and hone your training methods through interactive workshops. Participating in our program will enable you to gain expertise in diverse courses while also developing the abilities to mentor and encourage others in their career advancement.</p>
         </div>
-        <article className="w-full h-full xl:h-[254px] flex flex-col xl:flex-row justify-between gap-5 bg-[#571244] rounded-lg p-6">
-            <ul className='gap-[25px] grid grid-cols-1 md:grid-cols-2'>
+        <article className="w-full h-full xl:h-63.5 flex flex-col xl:flex-row justify-between gap-5 bg-[#571244] rounded-lg p-6">
+            <ul className='gap-6.25 grid grid-cols-1 md:grid-cols-2'>
               {consultList.map((item, i) => <li key={i} className='flex items-center gap-3 rounded-lg w-full'>
                 <div>
                   <h3 className='font-bold'>{item.title}</h3>

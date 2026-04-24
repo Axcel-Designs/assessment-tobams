@@ -31,7 +31,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="w-full h-[173px] max-lg:h-19 shadow-md z-50 bg-white flex flex-col justify-center overflow-hidden">
+      <header className="w-full h-43.25 max-lg:h-19 shadow-md z-50 bg-white flex flex-col justify-center overflow-hidden">
         <section className="flex justify-between items-center w-full lg:px-16 px-4 h-26">
           <div>
             <Image src={logo} alt="logo" placeholder="blur" width={165.71} />

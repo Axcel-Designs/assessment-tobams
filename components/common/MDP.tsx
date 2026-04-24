@@ -35,7 +35,7 @@ export default function MDP() {
             thinking, communication, and other essential managerial
             competencies for corporate organisations.</p>
           <div className='grid'>
-            <ul className='gap-[25px] flex flex-wrap'>
+            <ul className='gap-6.25 flex flex-wrap'>
               {MDPList.map((benefit, i) => <li key={i} className='flex items-center gap-3 bg-[#8F6182] px-2 py-1 rounded-lg w-full'>
                 <BsLightningChargeFill />
                 {benefit}
