@@ -19,7 +19,7 @@ export default function FooterFinalStart() {
           <Image src={logo} alt="logo" placeholder="blur" width={165.71} />
         </div>
         <div>
-          <p>Tobams Group is an innovative consultancy firm reshaping the future of tech talent development in Africa, specializing in talent acquisition, internships, and skill development with a global perspective.</p>
+          <p className='text-sm'>Tobams Group is an innovative consultancy firm reshaping the future of tech talent development in Africa, specializing in talent acquisition, internships, and skill development with a global perspective.</p>
         </div>
         <ul className='flex gap-6'>
           {socialLinks.map((social) => (
@@ -37,7 +37,7 @@ export default function FooterFinalStart() {
 
       <div className='flex flex-col gap-4'>
         <h3 className='font-bold'>What We Do</h3>
-        <ul className='grid gap-4'>
+        <ul className='grid gap-4 text-sm'>
           {WhatWeDoData.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
@@ -46,7 +46,7 @@ export default function FooterFinalStart() {
 
       <div className='flex flex-col gap-4'>
         <h3 className='font-bold'>Company</h3>
-        <ul className='grid gap-4'>
+        <ul className='grid gap-4 text-sm'>
           {companyData.map((item, index) => (
             <li key={index}>{item.title}</li>
           ))}
@@ -55,7 +55,7 @@ export default function FooterFinalStart() {
 
       <div className='flex flex-col gap-4'>
         <h3 className='font-bold'>Solutions</h3>
-        <ul className='grid gap-4'>
+        <ul className='grid gap-4 text-sm'>
           {solutionsData.map((item, index) => (
             <li key={index}>{item.title}</li>
           ))}
